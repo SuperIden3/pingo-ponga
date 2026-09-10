@@ -1,0 +1,16 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden; /* Prevents scrollbars */
+	background-color: #111;
+}
+
+canvas {
+	display: block;
+	width: 100vw;
+	height: 100vh;
+
+	/* CRITICAL: Keeps pixel art sharp when scaled up */
+	image-rendering: pixelated; 
+	image-rendering: crisp-edges; /* Fallback for older browsers */
+}
