@@ -1,0 +1,23 @@
+{
+	"meta": {
+		"image": "spritesheet.png",
+		"size": { "w": 16, "h": 32 }
+	},
+	"frames": {
+		"ping_pong_ball_0": {
+			"frame": { "x": 0, "y": 0, "w": 16, "h": 16 },
+			"pivot": { "x": 0.5, "y": 1.0 }
+		},
+		"ping_pong_ball_1": {
+			"frame": { "x": 0, "y": 16, "w": 16, "h": 16 },
+			"pivot": { "x": 0.5, "y": 1.0 }
+		}
+	},
+	"animations": {
+		"ping_pong_ball": {
+			"fps": 12,
+			"loop": true,
+			"sequence": ["ping_pong_ball_0", "ping_pong_ball_1"]
+		}
+	}
+}
