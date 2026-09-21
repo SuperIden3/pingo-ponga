@@ -1,3 +1,3 @@
 # Pingo Ponga
 
-A rework of the classic retro ping pong game for the web.
+A rework of classic retro ping pong for the web.
