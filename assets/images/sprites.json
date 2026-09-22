@@ -6,22 +6,25 @@
 	"frames": {
 		"ping_pong_ball_0": {
 			"frame": { "x": 0, "y": 0, "w": 9, "h": 9 },
-			"pivot": { "x": 0.5, "y": 1.0 }
+			"pivot": { "x": 0.5, "y": 1.0 },
+			"scale": 100
 		},
 		"ping_pong_ball_1": {
 			"frame": { "x": 0, "y": 10, "w": 9, "h": 9 },
-			"pivot": { "x": 0.5, "y": 1.0 }
+			"pivot": { "x": 0.5, "y": 1.0 },
+			"scale": 100
 		},
 		"paddle": {
 			"frame": { "x": 9, "y": 0, "w": 6, "h": 35 },
-			"pivot": { "x": 0.5, "y": 1.0 }
+			"pivot": { "x": 0.5, "y": 1.0 },
+			"scale": 100
 		}
 	},
 	"animations": {
 		"ping_pong_ball": {
 			"fps": 12,
 			"loop": true,
-			"sequence": ["ping_pong_ball_0", "ping_pong_ball_1"]
+			"sequence": [ "ping_pong_ball_0", "ping_pong_ball_1" ]
 		}
 	}
 }
