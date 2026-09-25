@@ -1,23 +1,21 @@
 {
 	"meta": {
-		"image": "spritesheet.png",
-		"size": { "w": 16, "h": 64 }
+		"image": "./spritesheet.png",
+		"size": { "w": 16, "h": 64 },
+		"scale": 1
 	},
 	"frames": {
 		"ping_pong_ball_0": {
-			"frame": { "x": 0, "y": 0, "w": 9, "h": 9 },
-			"pivot": { "x": 0.5, "y": 1.0 },
-			"scale": 100
+			"frame": { "x": 0, "y": 0, "w": 9, "h": 9 }
 		},
 		"ping_pong_ball_1": {
-			"frame": { "x": 0, "y": 10, "w": 9, "h": 9 },
-			"pivot": { "x": 0.5, "y": 1.0 },
-			"scale": 100
+			"frame": { "x": 0, "y": 10, "w": 9, "h": 9 }
 		},
 		"paddle": {
-			"frame": { "x": 9, "y": 0, "w": 6, "h": 35 },
-			"pivot": { "x": 0.5, "y": 1.0 },
-			"scale": 100
+			"frame": { "x": 9, "y": 0, "w": 6, "h": 35 }
+		},
+		"table_background": {
+			"frame": { "x": 0, "y": 18, "w": 8, "h": 8 }
 		}
 	},
 	"animations": {

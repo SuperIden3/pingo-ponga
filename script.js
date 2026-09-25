@@ -8,6 +8,6 @@ function main() {
 // --- //
 
 console.group("cleanup");
-const [_code, _err] = main();
-if (_code !== 0) console.error("Exited with code %o: %o", _code, _err); else console.log();
+const [code, _err] = main();
+if (code !== 0) console.error("Exited with code %o: %o", code, _err); else console.log();
 console.groupEnd("cleanup");
